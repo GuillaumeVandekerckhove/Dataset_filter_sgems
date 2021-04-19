@@ -5,16 +5,25 @@
 The object of this program is to get datafiles that are ready to import in sgems.
 
 	1. You start with your datafile as a text file seperated by tab.
+	
 	2. Ask some parameters from the user.
+	
 	3. Create folders to organize the data.
+	
 	4. Create different files per aquifer. A file for each hcov unit and a file for each head hcov unit.
+	
 	5. Create a file per aquifer file, that in the previous step was created, for each year that is present.
+	
 	6. If there are more than one value for the same filter, the mean is calculated (to consider multiple measurements per year)
+	
 	7. For each (x,y) location one value is calculated when for examples multiple filters have the same x and y coordinate but different depth of the filter
 		- mindepth: work with the value that has the least depth
 		- maxvalue: work with the maximum value of the parameter
+	
 	8. Create the file for sgems. Each line contains the x and y coordinate, the value of the parameter and the index number (to couple the extra data after the proces).
+	
 	9. Possibility to rerun the program.
+
 
 ## Input 
 
